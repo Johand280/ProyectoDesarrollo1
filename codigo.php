@@ -17,5 +17,5 @@ echo '<table border="1">';
 while ($fila = mysql_fetch_array($resultado)) {
     echo '<tr>';
     echo '<td>' . $fila['nombre'] . '</td>';
-
+}
     ?>
